@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Viagens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Guia de Viagens</h1>
+    </header>
+    <main>
+        <section id="questionnaire-section">
+            <form id="questionnaire">
+                <h2>Responda às perguntas para encontrar o destino ideal:</h2>
+                <div>
+                    <p>Você gosta de praias?</p>
+                    <label><input type="radio" name="praias" value="sim" required> Sim</label>
+                    <label><input type="radio" name="praias" value="não" required> Não</label>
+                </div>
+                <div>
+                    <p>Você gosta de cultura e história?</p>
+                    <label><input type="radio" name="cultura" value="sim" required> Sim</label>
+                    <label><input type="radio" name="cultura" value="não" required> Não</label>
+                </div>
+                <div>
+                    <p>Você gosta de aventuras?</p>
+                    <label><input type="radio" name="aventura" value="sim" required> Sim</label>
+                    <label><input type="radio" name="aventura" value="não" required> Não</label>
+                </div>
+                <div>
+                    <p>Você gosta de lugares históricos?</p>
+                    <label><input type="radio" name="historico" value="sim" required> Sim</label>
+                    <label><input type="radio" name="historico" value="não" required> Não</label>
+                </div>
+                <div>
+                    <p>Você gosta de natureza e tranquilidade?</p>
+                    <label><input type="radio" name="natureza" value="sim" required> Sim</label>
+                    <label><input type="radio" name="natureza" value="não" required> Não</label>
+                </div>
+                <button type="submit">Encontrar Destinos</button>
+            </form>
+        </section>
+
+        <section id="results" style="display: none;">
+            <h2>Destinos Recomendados</h2>
+            <div class="destinos"></div>
+            <button id="back-button">Voltar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
