@@ -7,4 +7,4 @@ Primeiro projeto a ser criado em sala de aula
 
 **Objetivo:** Aprender a ultilizar o *GitHub*, fazer os primeiros comits e ultilizar os *Codespaces*.
 
-    - Repositorio criado para a aplicação de guia de viagem
+    - Repositorio criado para a aplicação de guia de viagem-
